@@ -30,7 +30,7 @@ public class TextToSpeechCNUtil {
                 TextToSpeechCNUtil.mTextToSpeech.setSpeechRate(0.75f);
                 TextToSpeechCNUtil.mTextToSpeech.speak(String.valueOf(str), 1, null, "UniqueID");
             }
-        }, "com.iflytek.speechcloud");
+        }, "com.iflytek.vflynote");
 
     }
 

@@ -28,5 +28,6 @@ public class MainActivity extends AppCompatActivity {
     public void start(View view) {
         Toast.makeText(this, "开始合成 : " + mEtText.getText().toString().trim(), Toast.LENGTH_SHORT).show();
         TextToSpeechCNUtil.playTextSpeech(this, mEtText.getText().toString().trim());
+//        TextToSpeechCNUtil.playTextSpeech(this, "你正在干什么?What's the weather like today?");
     }
 }
